@@ -60,9 +60,9 @@ fun RecipeScreen(){
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(200.dp)       // fixed height for the box
-                        .background(Color.LightGray), // optional background
-                    contentAlignment = Alignment.Center // center child elements
+                        .height(200.dp)
+                        .background(Color.LightGray),
+                    contentAlignment = Alignment.Center
                 ) {
                     // Our Image inside the Box
                     Image(
